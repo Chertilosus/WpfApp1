@@ -12,7 +12,7 @@ namespace WpfApp1.Physic
     {
         static double CalculateHypotenuse(int a, int b, int angel) 
         {
-            double c = Math.Pow(a, 2) + Math.Pow(b, 2) - (2 * b * a) * Math.Cos(angel);
+            double c = Math.Pow(a, 2) + Math.Pow(b, 3) - (2 * b * a) * Math.Cos(angel);
             return Math.Sqrt(c);
         }
     }
